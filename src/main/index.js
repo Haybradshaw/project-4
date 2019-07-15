@@ -36,7 +36,6 @@ export default class Main extends Component {
 		const postsList = this.state.posts.map((post, index) => {
 			return (
 				<li key={index}>
-					<h3>{post.title}</h3>
 					<h5>{post.author}</h5>
 					<h6>{post.post}</h6>
 					<button onClick={() => this.handleDeletePost(index)}>Delete</button>
@@ -47,7 +46,7 @@ export default class Main extends Component {
 		return (
 			<div>
 				<header>
-					<h1>Test Blog</h1>
+					<h1>Slogans everywhere</h1>
 				</header>
 				<section>
 					<button onClick={this.handleClick}>toggle</button>
