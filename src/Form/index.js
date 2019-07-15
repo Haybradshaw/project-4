@@ -25,14 +25,6 @@ export default class Form extends Component {
 		 */
 		return (
 			<form onSubmit={this.handleSubmit}>
-				<div>
-					<label>Title</label>
-					<input
-						onChange={this.handleChange}
-						name="title"
-						value={this.state.title}
-					/>
-				</div>
 				<div />
                     <label>Author</label>
                     <input
