@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class Form extends Component {
 
 	state = {
-		title: '',
 		author: '',
 		post: ''
 	}
@@ -34,7 +33,7 @@ export default class Form extends Component {
                     />
 				<div />
                 <div>
-                    <label>Post</label>
+                    <label>Slogan</label>
                     <input
                         onChange={this.handleChange}
                         name="post"
