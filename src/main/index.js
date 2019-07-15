@@ -18,9 +18,9 @@ export default class Main extends Component {
 		})
 	}
 
-	handleAddPost = ({ title, author, post }) => {
+	handleAddPost = ({ author, post }) => {
 		this.setState({
-			posts: [{ title, author, post }, ...this.state.posts]
+			posts: [{ author, post }, ...this.state.posts]
 		})
 	}
 
