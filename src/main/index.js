@@ -34,9 +34,6 @@ export default class Main extends Component {
 	}
 
 	render() {
-		/**
-		 * *TODO: set the key so react can track list
-		 */
 		const postsList = this.state.posts.map((post, index) => {
 			return (
 				<li key={index}>
