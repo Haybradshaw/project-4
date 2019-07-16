@@ -3,12 +3,12 @@ import Form from '../Form'
 
 export default class Main extends Component {
 	state = {
-		isPosting: true,
+		isPosting: false,
 		posts: [
 			{
-				author: 'Hayden',
+				author: '',
 				post:
-					'dont ask what react can do for you but what you can do for react'
+					''
 			}
 		]
 	}
